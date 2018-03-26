@@ -11,6 +11,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://occ.me"
 twitter_username: onur_cakmak
 github_username:  occ
+linkedin_username: onurcakmak
 
 google_analytics: UA-116294962-1
 show_excerpts: true
