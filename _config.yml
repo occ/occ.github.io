@@ -12,6 +12,9 @@ url: "https://occ.me"
 twitter_username: onur_cakmak
 github_username:  occ
 
+google_analytics: UA-116294962-1
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 theme: minima
