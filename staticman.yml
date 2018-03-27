@@ -1,0 +1,43 @@
+comments:
+  # Name of the site. Used in notification emails.
+  name: "occ.me"
+
+  allowedFields: ["name", "email", "message"]
+
+  # Names of required fields. If any of these isn't in the request or is empty,
+  # an error will be thrown.
+  requiredFields: ["name", "email", "message"]
+
+  branch: "master"
+  format: "yaml"
+  moderation: false
+
+  # Text to use as the commit message or pull request title. Accepts placeholders.
+  commitMessage: "Add blog comment for {options.slug}"
+
+  # Destination path (directory) for the data files. Accepts placeholders.
+  path: "_data/comments/{options.slug}"
+
+  # Destination path (filename) for the data files. Accepts placeholders.
+  filename: "entry{@timestamp}"
+
+  # List of fields to be populated automatically by Staticman and included in
+  # the data file. Keys are the name of the field. The value can be an object
+  # with a `type` property, which configures the generated field, or any value
+  # to be used directly (e.g. a string, number or array)
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp"
+
+  # List of transformations to apply to any of the fields supplied. Keys are
+  # the name of the field and values are possible transformation types.
+  transforms:
+    email: md5
+	
+  akismet:
+    enabled: true
+	author: "name"
+	authorEmail: "email"
+	content: "message"
