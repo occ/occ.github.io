@@ -1,0 +1,4 @@
+baseURL = "https://occ.me/"
+languageCode = "en-us"
+title = "Random Technicalities"
+theme = "PaperMod"
