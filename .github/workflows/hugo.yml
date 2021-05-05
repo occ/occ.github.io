@@ -17,6 +17,5 @@ jobs:
       - name: Publish Site
         uses: chabad360/hugo-gh-pages@master
         with:
-          branch: master
           cname: occ.me
           githubToken: ${{ secrets.PERSONAL_TOKEN }}
