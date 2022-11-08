@@ -6,6 +6,7 @@ theme: PaperMod
 params:
   profileMode:
     enabled: true
+    title: "Hi 👋"
 
   socialIcons:
     - name: github
