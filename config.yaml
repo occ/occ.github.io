@@ -1,0 +1,12 @@
+baseURL: https://occ.me/
+languageCode: en-us
+title: Random Technicalities
+theme: PaperMod
+
+socialIcons:
+    - name: github
+      url: https://github.com/occ
+    - name: linkedin
+      url: https://www.linkedin.com/in/onurcakmak/
+    - name: mastodon
+      url: https://mastodon.social/@occ
