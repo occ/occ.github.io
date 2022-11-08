@@ -13,10 +13,10 @@ params:
       - name: Github
         url: "https://github.com/"
 
-    socialIcons:
-      - name: github
-        url: https://github.com/occ
-      - name: linkedin
-        url: https://www.linkedin.com/in/onurcakmak/
-      - name: mastodon
-        url: https://mastodon.social/@occ
+  socialIcons:
+    - name: github
+      url: https://github.com/occ
+    - name: linkedin
+      url: https://www.linkedin.com/in/onurcakmak/
+    - name: mastodon
+      url: https://mastodon.social/@occ
