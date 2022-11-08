@@ -4,14 +4,19 @@ title: Random Technicalities
 theme: PaperMod
 
 params:
-  homeInfoParams:
-    Title: "Hi 👋"
-    Content: Testing... 1... 2...
-      
-  socialIcons:
-    - name: github
-      url: https://github.com/occ
-    - name: linkedin
-      url: https://www.linkedin.com/in/onurcakmak/
-    - name: mastodon
-      url: https://mastodon.social/@occ
+  profileMode:
+    enabled: true
+    subtitle: "This is subtitle"
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/"
+
+    socialIcons:
+      - name: github
+        url: https://github.com/occ
+      - name: linkedin
+        url: https://www.linkedin.com/in/onurcakmak/
+      - name: mastodon
+        url: https://mastodon.social/@occ
