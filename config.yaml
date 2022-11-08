@@ -3,7 +3,12 @@ languageCode: en-us
 title: Random Technicalities
 theme: PaperMod
 
-socialIcons:
+params:
+  homeInfoParams:
+    Title: "Hi 👋"
+    Content: Testing... 1... 2...
+      
+  socialIcons:
     - name: github
       url: https://github.com/occ
     - name: linkedin
