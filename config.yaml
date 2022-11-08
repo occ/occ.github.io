@@ -6,12 +6,6 @@ theme: PaperMod
 params:
   profileMode:
     enabled: true
-    subtitle: "This is subtitle"
-    buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Github
-        url: "https://github.com/"
 
   socialIcons:
     - name: github
