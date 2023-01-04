@@ -15,3 +15,5 @@ params:
       url: https://www.linkedin.com/in/onurcakmak/
     - name: mastodon
       url: https://mastodon.social/@occ
+
+  googleAnalytics: G-EDXTWJ9TLQ
