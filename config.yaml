@@ -16,4 +16,4 @@ params:
     - name: mastodon
       url: https://mastodon.social/@occ
 
-  googleAnalytics: G-EDXTWJ9TLQ
+googleAnalytics: G-EDXTWJ9TLQ
