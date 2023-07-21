@@ -1,1 +1,2 @@
 /.well-known/host-meta https://m.occ.me/.well-known/host-meta 301
+/.well-known/webfinger* https://m.occ.me/.well-known/webfinger:splat 301
