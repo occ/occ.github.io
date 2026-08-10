@@ -1,5 +1,5 @@
 baseURL: https://occ.me/
-languageCode: en-us
+locale: en-us
 title: Random Technicalities
 theme: PaperMod
 
@@ -7,13 +7,12 @@ params:
   profileMode:
     enabled: true
     title: "Hi 👋"
+    subtitle: "GPG: [`7901 5791 6BCA 8CAB 69AC 38F1 E7FC 92CB 46BE 1129`](/pubkey.asc)"
 
   socialIcons:
     - name: github
       url: https://github.com/occ
     - name: linkedin
       url: https://www.linkedin.com/in/onurcakmak/
-    - name: mastodon
-      url: https://m.occ.me/@occ
 
 googleAnalytics: G-EDXTWJ9TLQ
